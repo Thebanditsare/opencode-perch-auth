@@ -1,0 +1,40 @@
+{
+  "name": "opencode-perch-auth",
+  "version": "0.1.0",
+  "description": "magpie/OpenCode provider plugin for Perch Terminal (app.perchai.app): browser sign-in, Perch-hosted models over the CLI surface",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    "./server": "./index.mjs",
+    ".": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie",
+    "magpie-plugin",
+    "perch",
+    "perchai"
+  ],
+  "license": "MIT",
+  "author": "Thebanditsare",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thebanditsare/opencode-perch-auth.git"
+  },
+  "homepage": "https://github.com/Thebanditsare/opencode-perch-auth#readme",
+  "bugs": {
+    "url": "https://github.com/Thebanditsare/opencode-perch-auth/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "magpie": {
+    "maxConcurrency": 2
+  }
+}
